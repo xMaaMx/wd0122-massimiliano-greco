@@ -1,0 +1,137 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+}
+/* HEADER */
+header {
+    background-color: rgb(26, 158, 247);
+    padding: 60px;
+   
+    
+    
+}
+p{
+    text-align: center;
+}
+header h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center; 
+    margin-bottom: 10px; 
+}
+header span{
+    font-size: 1.5rem;
+    background-color: white;
+    color: rgb(49, 49, 235);
+    line-height: 220%;
+}
+header h2{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+h2{
+    color: blue;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    
+    margin-top: 20px;
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border: 1px 5px 5px 5px solid rgb(197, 195, 195);
+    padding: 5px;
+   
+    margin-top: 10px;
+}
+div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section div figcaption{
+    align-items: center;
+   
+}
+section div address {
+    padding: 0.5em;
+   
+}
+section div address b{
+    font-weight: bold;
+}
+section div blockquote p{
+    border-radius: 30px;
+    background-color: rgb(163, 160, 160);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 10px;
+    border-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+section div a {
+    color: red;
+}
+
+section div p{
+    padding-top: 20px;
+}
+
+strong {
+    color: rgb(53, 179, 184);
+}
+div mark {
+    background-color: blue;
+    color: white;
+}
+div li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    list-style-type: disc;
+}
+p {
+    text-align: justify;
+}
+h3{
+    color: black bold;
+}
+
+footer {
+    background-color: rgb(97, 95, 95);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
+footer kbd{
+    color: yellow;
+}
+footer a {
+    color: red;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+footer p small{
+    color: grey;
+}
+/* MAIN */
+
+/* ELEMENTI NEL MAIN */
+
+/* FOOTER */
