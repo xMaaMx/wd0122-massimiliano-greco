@@ -1,0 +1,42 @@
+/*general styles*/
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+/*con <:hover cambia colore quando passi con il mouse*/
+a:hover{
+    color: blue;
+}
+
+/*header*/
+#header{
+    background-color: blue;
+    height: 100px;
+}
+#main-nav li{
+    display: inline-block;
+    background-color: white;
+    margin-left: -4px;
+    padding: 5px 0;
+    width: calc(100% / 3 );
+    text-align: center;
+}
+#header li:hover{
+    background-color: #ccc;
+}#header li:hover a{
+    color: yellow;
+}
+#prima-section{
+    padding: 50px 0;
+    background-image: url(/img/htmllogo.png);
+    background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
