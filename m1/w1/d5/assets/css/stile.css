@@ -1,0 +1,151 @@
+body{
+    color: #393d41;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #25a2c3;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #25a2c3;
+    line-height: 1.5;
+    font-weight: 700;
+}
+header{
+    background-color: black
+}
+header img{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 95px;
+
+   
+}
+
+p{
+    font-size: 15px;
+}
+#banner{
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+section{
+    padding: 50px 10px 50px 10px;
+    text-align: center;
+}
+section h1{
+    
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+section p{
+    margin-bottom: 15px;
+}
+.bottone{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px; 
+}
+.openpc{
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#red{
+    background-color: rgba(255, 60, 0, 0.986);
+    color: white;
+}
+#red >h2 {
+    color: white;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+}
+#red >p {
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+blockquote{
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+cite{
+    font-size: 0.8rem;
+}
+
+aside div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ciao1{
+    border: #dee1e3 1px solid;
+    padding: 0px 0px 10px 0px;
+    margin-right: 22px;
+    margin-left: 22px;
+}
+.ciao1 p {
+    font-size: 10px;
+    padding: 0px 10px;
+}
+.ciao1 img{
+    width: 100%;
+}
+
+
+
+footer {
+    background-color: #25a2c3;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer > h2{
+    color: white;
+    font-weight: 700;
+    padding-bottom: 80px;
+    font-size: 25px;
+}
+footer >a {
+    color: white;
+    font-size: 15px;
+}
+footer >address{
+    color: white;
+    font-size: 15px;
+}
+hr{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+span {
+    color: white;
+    font-size: 15px;
+}
+span a{
+    color: white;
+}
+
+footer .fas{
+    background-color: #25a2c3;
+    color: white;
+}
+
