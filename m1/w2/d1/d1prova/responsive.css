@@ -1,0 +1,15 @@
+@media (min-width: 480px){
+    .blocco{
+        width: calc(100% / 2 - 2px);
+        display: inline-block;
+        margin-left: -4px;
+        margin-bottom: -3px;
+    }
+}
+
+@media ( min-width: 1201px){
+    .blocco{
+        width: calc(100% / 3 - 2px);
+        background-color: green;
+    }
+}
