@@ -1,0 +1,57 @@
+header{
+    background-color: orange;
+    height: 70px;
+    position: relative;
+}
+
+#main-nav{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+#main-nav ul{
+    text-align: center;
+}
+
+#main-nav > ul >li{
+    display: inline-block;
+    padding: 10px;
+    transition: all 1s;
+    position: relative;
+}
+
+#main-nav li:hover{
+    background-color: #fff;
+}
+
+#main-nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+#main-nav > ul > li:hover .sub-menu{
+    height: 200px;
+    margin-top: 0px;
+    opacity: 1;
+    
+}
+
+
+#main-nav .sub-menu{
+    position: absolute;
+    background-color: rgba(191, 117, 13, 0.8);
+    top: 64px;
+    left: 0;
+    margin-top: -50px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    
+}
+#main-nav .sub-menu li{
+    width: 250px;
+    padding: 15px 0;
+
+}

@@ -1,0 +1,17 @@
+.blocco{
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    float: left;
+}
+.clearfix{
+    clear: both;
+    visibility: hidden;
+}
+.float-left-img{
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
