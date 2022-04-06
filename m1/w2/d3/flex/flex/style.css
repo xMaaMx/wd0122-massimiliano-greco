@@ -1,0 +1,89 @@
+h3{
+    background-color: green;
+    color: white;
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+    
+}
+
+.blocco{
+    background-color: yellow;
+    border: 1px solid brown;
+    font-size: 4rem;
+    height: 200px;
+    width: 200px;
+}
+
+#n2 {
+    flex-direction: row-reverse;
+}
+#n3{
+    flex-direction: column;
+    height: 500px; /*imposto un'altezza per vedere come gira*/
+
+}
+#n4{
+    flex-direction: column;
+    height: 500px;
+    flex-wrap: wrap;
+}
+#n5{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*
+justify: allineamento orizzontale
+align: verticale
+*/
+#n6{
+   align-items: flex-end;
+   flex-direction: row;
+}
+
+#n7{
+    justify-content: space-between;
+}
+#n8{
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#n9{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+#n9 .blocco{
+height: 50px;
+background-color: brown;
+border: 1px solid;
+}
+#n10 {
+    align-items: stretch;
+    height: 400px;
+    flex-direction: row-reverse;
+}
+#n10 .blocco{
+    height: auto;
+}
+#n10 .blocco:nth-of-type(3){
+    order: -1;
+}
+#n11 .blocco{
+  flex-grow: 1;
+}
+#n11 .blocco:nth-of-type(2){
+    flex-grow: 2;
+}
+#n11 .blocco:nth-of-type(3){
+   flex-shrink: 100;
+}
+
+#n12 .blocco{
+flex-basis: 25%;
+}

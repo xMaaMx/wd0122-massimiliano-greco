@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    background-color: aqua;
+    margin-bottom: 20px;
+
+
+}
+.blocco{
+    background-color: yellow;
+    border: 1px solid brown;
+    font-size: 4rem;
+
+}
+
+#n1{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 300px 70px 100px ;
+
+}
+#n2{
+    height: 500px;
+    grid-template-columns: repeat(4,70px) 2fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+
+header{
+    grid-area: header;
+    background-color: yellow;
+}
+main{
+    grid-area: main;
+    background-color: orange;
+}
+aside{
+    grid-area: aside;
+    background-color: green;
+}
+footer{
+    grid-area: footer;
+    background-color: yellow;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "header header header" 
+    "main aside section"
+    "footer footer footer";
+    
+}
