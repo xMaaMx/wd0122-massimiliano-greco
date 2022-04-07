@@ -1,0 +1,140 @@
+.contenitore1{
+    position: relative;
+}
+
+.div1{
+    width: 200px;
+    height:100px;
+    transition: width 2.5s, height 2.5s;
+    background-color: green;
+}
+
+.div1:hover{
+    width: 100%;
+    height: 300px;
+}
+
+
+.titolo, .div1{
+    display:inline-block;
+}
+.titolo{
+    position:absolute;
+    right: 100px;
+    z-index: 2;
+    color: white;
+    line-height: 50px;
+    top: calc(50% - 25px);
+}
+
+
+/*animazioni*/
+
+.contenitore2{
+    position: relative;
+}
+
+.div2{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    animation-name: allarga;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes allarga{
+    from {width: 200px; height: 100px;}
+    to {width: 100%; height: 300px;}
+}
+
+/*animazioni2*/
+
+.blocco{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.c1{
+    animation-name: colore;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes colore{
+    0% {background-color: red;}
+    50% {background-color: blue;}
+    100% {background-color: red;}
+}
+.c2{
+    animation-name: sposta, colore;
+    animation-duration: 3s, 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes sposta{
+    0% {margin-left: 0;}
+    50% {margin-left: 300px;}
+    100% {margin-left: 0px;}
+}
+.c3{
+    animation-name: sposta-ruota;
+    animation-duration: 2.5s ;
+    animation-iteration-count: infinite;
+}
+@keyframes sposta-ruota{
+    0% {margin-left: 0; transform: rotate(0deg);}
+    50% {margin-left: 300px; transform: rotate(90deg);}
+    100% {margin-left: 0px; transform: rotate(0deg);}
+}
+.c4{
+    animation-name: pulsa;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 15px black, 0px 0px 15px black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes pulsa{
+    0% {box-shadow: 0px 0px 90px black, 0px 0px 50px black ;}
+    50% {box-shadow: 0px 0px 1px yellow, 0px 0px 10px black ;}
+    100% {box-shadow: 0px 0px 50px black, 0px 0px 50px black ;}
+}
+
+ /* animazioni 3d*/
+
+
+ #area-3d{
+     height: 100vh;
+     width: 100%;
+     perspective: 1000px;
+     position: relative;
+     transform-style: preserve-3d;
+ }
+
+ .c5{
+     transform: translateZ(-1050px);
+ }
+#assex, #assey{
+    position: fixed;
+   
+}
+
+#assey{
+    border-left: 1px solid black;
+    height: 100vh;
+    left: 50%;
+    top: 0;
+    z-index: 100;
+}
+#assex{
+    border-top: 1px solid black;
+    width: 100%;
+    left: 50%;
+    top: 0;
+    z-index: 100;
+}
