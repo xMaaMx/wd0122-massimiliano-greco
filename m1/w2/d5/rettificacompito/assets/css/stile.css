@@ -1,0 +1,286 @@
+/* IMPOSTAZIONI GENERALI */
+h1{
+    font-size: 40px;
+    line-height: 45px;
+    
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h3 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+h5{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav {
+    margin: 2%;
+    position: relative;
+    text-decoration: underline;
+    line-height: 25px;
+}
+#menu{
+    background-color: red;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+#apri-menu{
+    display: none;
+    position: absolute;
+    right: 0;
+
+}
+input:checked + #menu {
+    height: 100px;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 25em;
+    line-height: 25px;
+    padding: 1px 10px;
+}
+.epico{
+    color: white;
+    margin-left: 5%;
+    text-shadow: 1px 1px 1px black;
+    
+}
+.bottone{
+    margin-left: 5%;
+    padding: 8px 10px;
+    background: linear-gradient(skyblue,blue);
+    margin-top: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 12%;
+    text-align: center;
+    align-items: center;
+}
+.lni{
+    color: red;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.varie{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+}
+.notebook{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 22px;
+    flex-basis: 33%;
+    padding: 10% 20%;
+
+}
+.bottone2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 5%;
+        padding-top: 10px;
+        width: 80%;
+        height: 30px;
+        text-align: center;
+        background: linear-gradient(skyblue,blue);
+        
+}
+.chisiamo {
+    padding: 10px 10px;
+    height: 80px;
+
+}
+.social {
+    padding: 10px 10px;
+    margin-top: 10px;
+
+    
+}
+.newsletter{
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 8, 81);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+section a{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 8px;
+    background: linear-gradient(skyblue,blue);
+    margin-top: 1px;
+    width: 100px;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 4px 4px 4px yellow;
+}
+section h2{
+    margin-top: 40px;
+}
+section p{
+    margin-top: 10px;
+}
+.contatti{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.indirizzo{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    
+}
+/*contatti*/
+button{
+    background: linear-gradient(skyblue,blue);
+    color: white;
+    padding: 10px 5px;
+}
+/*chisiamo*/
+.mobile{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.mobile caption {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.coder{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mid p{
+    margin-top: 10px;
+}
+.color{
+    background-color: lightgrey;
+    width: 400px;
+    height: 80px;
+}
+
+/*breakpoint*/
+@media screen and (min-width:768px)
+{
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .lavoro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .medio{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10%;
+    }
+    .notebook{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    .mobile{
+        display: none;
+    }
+    caption{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .desktop{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .desktop th{
+        background-color: blue;
+        color: white;
+    }
+    .ore{
+        background-color: lightgrey;
+        color: black;
+    }
+   
+    .desktop tr, th, td{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mid{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 20px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+   .desktop {
+       display: none;
+   }
+   
+}
+
+
+
+    
+
+
