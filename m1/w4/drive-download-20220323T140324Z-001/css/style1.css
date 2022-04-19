@@ -1,0 +1,96 @@
+body{
+
+}
+nav{
+
+}
+
+header{
+
+}
+
+
+.subscribe span{
+    color:orangered;
+    font-weight: bold;
+}
+
+.subscribe{
+    background-image: url(../images/subscribe-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size:xx-large;
+    
+}
+
+.subscribe div p{
+    font-size:small;
+    font-weight: bold;
+}
+
+
+
+
+
+/*------------------ FOOTER ---------------*/
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+footer span{
+    color: orangered;
+}
+.footerimg{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    margin-top: 20px;
+    justify-content: space-around;   
+}
+.contactinfo{
+    width: 220px;
+    height: 250px;
+}
+.latestblogposts{
+    width: 220px;
+    height: 250px;
+}
+.photostream{
+    width: 260px;
+    height: 250px;
+}
+.contact{
+    margin-top: 20px;
+}
+.data{
+    margin-top: 20px;
+}
+.followus{
+    margin-top: 20px;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 90px;
+}
+.copyright span{
+    color: orangered;
+}
+
+@media screen and (max-width:  768px){
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 40%;
+}
+
+}
+    
+
