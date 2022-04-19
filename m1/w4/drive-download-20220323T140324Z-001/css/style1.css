@@ -5,8 +5,36 @@ nav{
 
 }
 
-header{
-
+#blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    margin-left: 40px;
+    text-align: center;
+    background-color: green;
+    
+}
+.food1{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    text-align: center;
+    border: 1px solid;
+}
+.food2{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    text-align: center;
+    border: 1px solid;
+}
+.food3{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    text-align: center;
+    border: 1px solid;
 }
 
 
@@ -30,9 +58,58 @@ header{
     font-weight: bold;
 }
 
+.menu h3,h4{
+    font-weight: bold;
+    
+}
 
+.menu h3{
+    text-align: center;
+}
+.menu h3 span{
+    color: orangered;
+}
 
+.menu hr{
+    width: 150px;
+    opacity: 0.5;
+}
 
+#week{
+    color: orangered;
+}
+
+.elenco-menu {
+    display: grid;
+  
+    
+  
+}
+
+.elenco-menu span{
+    color: gray;
+    border-bottom:1px dashed lightgray;
+    grid-column-start: 1;
+
+}
+
+#more-info:hover{
+    background-color: orangered;
+    color: white;
+    transition: all 0.5s;
+}
+
+#more-info{
+    color:orangered;
+    text-decoration: none;
+    border: 1px solid orangered;
+}
+
+#orange-info{
+    display: flex;
+    padding:20px;
+    justify-content: flex-end;
+}
 
 /*------------------ FOOTER ---------------*/
 footer{
