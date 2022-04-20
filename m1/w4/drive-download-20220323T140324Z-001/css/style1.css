@@ -1,55 +1,160 @@
 body{
+   
+}
+main{
+}
+p{
+    font-size: 12px;
+    color: grey;
 
 }
-nav{
-
+header img{
+    background-size: cover;
+    width: 100%;
 }
+
+.navbar{
+    position: sticky;
+    top: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 801px;
+    height: 70px;
+    z-index: 1;
+    background-color: red;
+    margin-left: 150px;
+  }
+  .navbar img {
+      width: 125px;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+  }
+  
+  .logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+  }
+  
+  
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 15px;
+    font-size: 10px;
+  }
 
 #blog{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 500px;
-    margin-left: 40px;
+    height: 650px;
     text-align: center;
-    background-color: green;
-    
+    justify-content: center;
+    background-image: url(/images/blog/blog-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 150px;
 }
+
+
 .food1{
     display: flex;
     flex-direction: row;
-    width: 45%;
+    width: 50%;
+    height: 160px;
     text-align: center;
-    border: 1px solid;
+    background-color: white;
+    margin-top: 65px;
+    padding-bottom: 1px;
+
 }
+
 .food2{
     display: flex;
     flex-direction: row;
-    width: 45%;
+    width: 50%;
+    height: 160px;
     text-align: center;
-    border: 1px solid;
+    background-color: white;
+    padding-bottom: 10px;
+   
 }
 .food3{
     display: flex;
     flex-direction: row;
-    width: 45%;
-    text-align: center;
-    border: 1px solid;
+    width: 50%;
+    height: 160px;
+    text-align: center;    
+    background-color: white;
+
+ 
 }
+.testi{
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+section button{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    margin-right: 0;
+    margin-left: auto;
+    height: 40px;
+    padding: 10px 61px;
+    float: right;
+    color: white;
+    text-shadow: 1px 1px black;
+    border: 0;
+    border-style: none;
+}
+    
+
+
+
 
 
 .subscribe span{
     color:orangered;
     font-weight: bold;
 }
+.subscribe input{
+    width: 260px;
+    height: 35px;
+    margin-left: 324px;
+}
+.subscribe button{
+    width: 195px;
+    height: 40px;
+    margin-right: 370px;
+    
+    
+}
+.newsletter{
+  line-height: 40px;
+}
 
 .subscribe{
     background-image: url(../images/subscribe-bg.jpg);
     display: flex;
-    flex-direction: column;
+    height: 300px;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat:no-repeat;
     color: white;
-    font-size:xx-large;
+    margin: 5px 0px;
+    
     
 }
 
@@ -58,8 +163,24 @@ nav{
     font-weight: bold;
 }
 
+.menu{
+    display:flex;
+    flex-direction: column;
+    padding:20px 20px 20px 20px;
+    margin: 10px 12%;
+
+    
+}
+#pre-menu{
+    text-align: center;
+    color: gray;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+
 .menu h3,h4{
     font-weight: bold;
+    padding-bottom: 5px;
     
 }
 
@@ -80,18 +201,41 @@ nav{
 }
 
 .elenco-menu {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
   
     
-  
+
 }
 
-.elenco-menu span{
+.elenco-menu p{
     color: gray;
-    border-bottom:1px dashed lightgray;
-    grid-column-start: 1;
-
+    padding: 10px;
+    
 }
+   
+.border-bottom{
+    height: 14px;
+    width: 72%;
+    border-bottom: gray 1px dotted;
+    position: absolute;
+ 
+}
+
+
+.food span{
+    color: gray;
+    float: right;
+   
+}
+
+.food h4{
+float:left;
+
+}  
+ 
+
 
 #more-info:hover{
     background-color: orangered;
@@ -103,6 +247,8 @@ nav{
     color:orangered;
     text-decoration: none;
     border: 1px solid orangered;
+    font-size: 0.8rem;
+    padding: 30px 90px 30px 90px;
 }
 
 #orange-info{
@@ -110,12 +256,61 @@ nav{
     padding:20px;
     justify-content: flex-end;
 }
+/* ------ di seba ----*/
+#contact-us{
+    margin: 10px ;
+
+
+}
+.our{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.sing-up-for{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    margin: 5px 13%;
+
+}
+section div input {
+    width: 100%;
+    height: 50px;
+}
+section div textarea {
+    width: 100%;
+    height: 150px;
+
+}
+div span{
+    color: orangered;
+}
+.invia{
+    display:inline-block;
+    float:right;
+    background-color:orangered;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    padding: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.hr{
+    height: 0vw;
+    width: 15vw;
+    color: rgb(190, 190, 190);
+}
 
 /*------------------ FOOTER ---------------*/
 footer{
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin: 5px 5%;
     justify-content: space-evenly;
 }
 
@@ -166,6 +361,9 @@ footer{
     flex-direction: column;
     text-align: center;
     margin-left: 40%;
+}
+.copyright{
+    text-align: center;
 }
 
 }
