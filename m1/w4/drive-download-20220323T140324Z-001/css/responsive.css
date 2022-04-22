@@ -386,8 +386,9 @@ footer{
     padding-bottom: 30px;
 }
 
-.menu h3,h4,p,span{
-    display:flex;
+#menu-price{
+margin-left: 10%;
+margin-bottom: 10%;
 }
 
 .border-bottom{
@@ -455,6 +456,17 @@ footer span{
 .contactinfo{
     width: 220px;
     height: 250px;
+    margin-top: 20%;
+}
+
+.invia{
+    display: flex;
+    flex-direction: column;
+    float: none;
+    justify-content: center;
+    margin: 0;
+    width: 65%;
+    margin-left: 14%;
 }
 
 }  
