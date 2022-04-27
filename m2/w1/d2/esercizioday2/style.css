@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(4, 5, 5);
+    width: 100%;
+    margin-top: 10%;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+}
+button{
+    background-color: red;
+    color: white;
+}
+.scontrino{
+    height: 40%;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+.alert{
+    height: 40%;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
