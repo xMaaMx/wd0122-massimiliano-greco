@@ -1,0 +1,69 @@
+@import 'variabili';
+.logo{
+    margin-left: 14%;
+}
+
+.showcase{
+    background-color: $background;
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        color: $li;
+        list-style: none;
+        margin-right: 14%;
+    }
+    li:hover{
+        text-decoration: $text-decoration;
+        transform: $transform;
+    }
+    li > a {
+        color: $li;
+        text-decoration: none;
+        padding: 10px;
+    }
+}
+.showcase-content{
+    display: flex;
+    margin: $margin;
+}
+.showcase-content > div{
+    margin-top: 50px;
+}
+.my-1{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.btn-primary{
+    display: inline-block;
+    background-color: $btn-primary;
+    padding: $padding;
+    border-radius: $border-radius;
+    text-decoration: none;
+    color: $li;
+    
+}
+.btn-primary:hover{
+    
+    text-decoration: $text-decoration;
+    transform: $transform;
+}
+.btn-secondary{
+    display: inline-block;
+    background-color: $btn-secondary;
+    padding: $padding;
+    border-radius: $border-radius;
+    text-decoration: none;
+    color: $li;
+}
+.btn-secondary:hover{
+    text-decoration: $text-decoration;
+    transform: $transform;
+}
+img{
+    width: $width;
+    margin-bottom: 40px;
+}

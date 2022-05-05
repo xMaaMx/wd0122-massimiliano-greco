@@ -1,0 +1,10 @@
+header{
+
+    li{
+        background-color: red;
+        color: white;
+        &:hover{
+            background-color: $verde;
+        }
+    }
+}

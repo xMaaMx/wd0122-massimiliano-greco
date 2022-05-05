@@ -1,0 +1,9 @@
+header li {
+  background-color: red;
+  color: white; }
+  header li:hover {
+    background-color: green; }
+
+body {
+  background-color: green;
+  color: green; }
