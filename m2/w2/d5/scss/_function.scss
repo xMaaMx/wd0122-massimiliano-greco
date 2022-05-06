@@ -1,0 +1,17 @@
+@function set-color($colore){
+    $luminosity : lightness($colore);
+    @if($luminosity > 50){
+        @return black;
+
+    }@else{
+        @return white;
+    }
+}
+
+$font-size: 15px;
+$color: blue;
+$icons: purple;
+$icons2: rgb(17, 140, 247);
+$background-color: grey;
+$mt: 50px;
+$hoover: underline;
