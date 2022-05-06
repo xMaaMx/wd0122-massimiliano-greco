@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "d5",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../../../../ciao/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "d5"
+	}
+}

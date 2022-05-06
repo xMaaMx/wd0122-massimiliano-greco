@@ -1,0 +1,100 @@
+@import 'functions';
+
+@mixin testi($peso, $bg) {
+    margin-top: 10px;
+    color: grey;
+    padding: 15px;
+    font-weight: #{$peso};
+    background-color: #{$bg};
+}
+@mixin colore($modifica, $valore){
+    #{$modifica}color: $valore;
+    
+}
+@mixin breakpoints($misura, $content) {
+    @if $misura == desktop{
+        @media screen and (min-width: 1440px){
+           $content;
+
+        }
+    }
+    @else if $misura == tablet {
+        @media screen and (min-width:768px){
+            $content;
+        }
+    }
+}
+
+h1{
+    font-size: 1.5rem;
+    @include testi(bold, white);
+    /*@media screen and (min-width: 768px){
+        font-size: 2rem;
+    }*/
+    @include breakpoints(&misura){
+
+    }
+    &:hover{
+        background-color: red;
+        color: yellow;
+    }
+    &:after{
+       content: "<";
+    }
+}
+p{
+    font-size: 1rem;
+    @include testi(400, green);
+}
+#p1{
+    @include colore('', red)
+}
+#p2{
+    @include colore ('background-', red);
+    color: white;
+    width: miaFunzione(3)
+}
+
+/*#d1{
+    background-color: $sfondo;
+    color: set-color($sfondo);
+}*/
+
+.main_div{
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 50px;
+}
+.special_div{
+    @extend .main_div;
+    height: 250px;
+    margin-left: auto;
+}
+.main-image{
+    @extend .special_div;
+    border-radius: 50%;
+    display: block;
+}
+
+/* cicli*/
+
+
+@for $i from 1 to 4 {
+
+    .bordo#{$i}{
+        border-top: 3px  * $i solid #000;
+    }
+
+}
+
+$misure: 15px, 30px, 45px;
+
+@each $misura in $misure {
+    .ml-#{$misura}{
+        margin-left: $misura;
+    }
+    .mr-#{$misura}{
+        margin-right: $misura;
+    }
+}
+
