@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<input type="text" id="display" class="form-control">
+<div class="row">
+    <button data-val="1" class="btnCalcolatrice col- p-3">1</button>
+    <button data-val="2" class="btnCalcolatrice col- p-3">2</button>
+    <button data-val="3" class="btnCalcolatrice col- p-3">3</button>
+    <button data-val="4" class="btnCalcolatrice col- p-3">4</button>
+    <button data-val="5" class="btnCalcolatrice col- p-3">5</button>
+    <button data-val="6" class="btnCalcolatrice col- p-3">6</button>
+    <button data-val="7" class="btnCalcolatrice col- p-3">7</button>
+    <button data-val="8" class="btnCalcolatrice col- p-3">8</button>
+    <button data-val="9" class="btnCalcolatrice col- p-3">9</button>
+    <button data-val="0" class="btnCalcolatrice col- p-3">0</button>
+    <button data-val="*" class="btnCalcolatrice col- p-3">*</button>
+    <button data-val="/" class="btnCalcolatrice col- p-3">/</button>
+    <button data-val="+" class="btnCalcolatrice col- p-3">+</button>
+    <button data-val="-" class="btnCalcolatrice col- p-3">-</button>
+    <button data-val="=" class="btnCalcolatrice col- p-3">=</button>
+</div>
+<script>
+
+    let app = {
+        display : document.querySelector('#display'),
+        bottoni : document.querySelectorAll('.btnCalcolatrice'),
+        totale: function(){
+            this.display = eval(this.display)
+        },
+        init: function (){
+            for(let bottone of this.bottoni){
+            bottone.addEventListener('click', function(){
+                let val = bottone.getAttribute('data-val')
+                this.display.value += val
+            })
+
+            }
+    
+    app.init()
+    
+    </script>
+
+
+   /* let app = {
+        createHTMLInputElement(obj){
+      
+      let input = document.createElement('input')
+
+        if(obj.name != undefined){
+            input.classList.add(obj.name)
+        }
+        if(obj.placeholder != undefined){
+            input.classList.add(obj.placeholder)
+        }
+        if(obj.id != undefined){
+            input.classList.add(obj.id)
+        }
+        if(obj.classes != undefined){
+            input.classList.add(obj.classes)
+        }
+        if(required){
+            input.required = true
+        }
+        return input
+    }
+}*/
+
+
+</body>
+</html>
