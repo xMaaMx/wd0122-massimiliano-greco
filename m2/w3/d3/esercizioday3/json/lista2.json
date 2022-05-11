@@ -1,0 +1,17 @@
+{
+    "squadre":[
+        {
+            "squadra": "Lazio",
+            "anno": 1900,
+            "citta": "Roma",
+            "Calciatori":[
+                "Di Canio",
+                "Nesta",
+                "Immobile"
+            ]
+        }
+    ]
+}
+
+
+
