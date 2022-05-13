@@ -1,0 +1,26 @@
+
+#utenti{
+    border: 2px solid rgb(78, 76, 76);
+    width: 90%;
+    text-align: left;
+    height: 200px;
+    margin: 0 5%;  
+}
+
+#linkedin{
+    background-image: url("/img/Linkedin.png.webp");
+    background-size: cover;
+    background-repeat: round;
+    height: 206px;
+}
+form{
+    width: 60%;
+    margin: auto;
+}
+ul{
+    text-decoration: underline;
+}
+button{
+    margin-top: 10px;
+}
+
