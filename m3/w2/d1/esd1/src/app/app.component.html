@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<h2>di {{name}}</h2>
+
+<ul>
+  <h3>Lista Amici</h3>
+  <button (click)="elimina()">Elimina Utenti</button>
+  <li *ngFor="let n of nomi">
+    
+    {{n.nome}}
+    {{n.cognome}}
+    {{n.eta}}
+  </li>
+  <button (click)="aggiungi()">Aggiungi Utenti</button>
+</ul>
+
