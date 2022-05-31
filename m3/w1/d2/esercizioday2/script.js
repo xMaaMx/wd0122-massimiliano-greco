@@ -26,7 +26,7 @@ var motherAccount = /** @class */ (function () {
     };
     return motherAccount;
 }());
-var saldoFinal = new motherAccount(0, 50, 20, 10);
+var saldoFinal = new motherAccount(600, 50, 20, 10);
 console.log(saldoFinal.saldoF());
 //let saldoParziale = new sonAccount(40, 30)
 //console.log(saldoParziale.saldoCommissione());

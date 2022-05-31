@@ -1,4 +1,4 @@
-let scarto1:(boolean|number)= true
+/*let scarto1:(boolean|number)= true
 let scarto2:(boolean|number) = true
 let n:any = true;
 while(n){
@@ -30,3 +30,13 @@ while(n){
     }
     n = confirm("Vuoi giocare di nuovo?");
 }
+*/
+
+let c:number = 1
+
+do{
+    c += 3
+    
+} while( c<10)
+
+console.log(c);

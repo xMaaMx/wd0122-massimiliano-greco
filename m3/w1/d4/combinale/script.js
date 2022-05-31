@@ -1,3 +1,6 @@
+var code = 123;
+var employeeCode = code;
+console.log(typeof employeeCode);
 function combine(input1, input2) {
     if (typeof input1 === 'number' && typeof input2 === 'number') {
         var result = Number(input1) + Number(input2); //o si fa cosi

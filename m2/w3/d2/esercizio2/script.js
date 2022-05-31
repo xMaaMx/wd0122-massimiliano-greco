@@ -40,7 +40,7 @@ class Pagination {
         const wrapper = document.querySelector('#wrapper');
         let strHtml = '';
         lista.forEach((item) => {
-            strHtml += `<tr><td>${item.id}</td><td>${item.nome}</td><td>${item.cognome}</td><td>${item.classe}</td></tr>`;
+        wrapper.innerHTML += `<tr><td>${item.id}</td><td>${item.nome}</td><td>${item.cognome}</td><td>${item.classe}</td></tr>`;
         });
         wrapper.innerHTML = strHtml;
     }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container">
+        <form id="formPizze">
+            <div class="row">
+                <div class="col-5">
+                    <input type="text" class="form-control" id="gusto" placeholder="gusto">
+                </div>
+                <div class="col-5">
+                    <input type="text" class="form-control" id="tipo" placeholder="tipo">
+                </div>
+                <div class="col">
+                    <input type="number" class="form-control" id="prezzo" placeholder="prezzo">
+                </div>
+                <div class="col-12">
+                    <h3>Dimensioni</h3>
+                    <label for="mini">Mini</label>
+                    <input type="checkbox" id="mini">
+
+                    <label for="normale">Normale</label>
+                    <input type="checkbox" id="normale">
+
+                    <label for="mezzo-metro">Mezzo-metro</label>
+                    <input type="checkbox" id="mezzo-metro">
+                
+                    <h3>Disponibilità</h3>
+                <label for="disponibile">Disponibile</label>
+                <input type="checkbox" id="disponibile">
+            </div>
+        </div>
+        <button id="salva" class="btn btn-primary">salva</button>
+    </form>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

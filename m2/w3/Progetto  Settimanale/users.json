@@ -1,18 +1,18 @@
 [
   {
-    "user": "xMaaMx",
-    "nome": "Massimiliano",
-    "cognome": "Greco",
-    "sesso": "Male",
-    "foto": "img/male.png",
+    "username": "xMaaMx",
+    "firstName": "Massimiliano",
+    "lastName": "Greco",
+    "gender": "Male",
+    "profileURL": "img/male.png",
     "email": "m.g@example.com"
   },
   {
-    "user": "daddo",
-    "nome": "Riccardo",
-    "cognome": "Muzietti",
-    "sesso": "Male",
-    "foto": "img/female.png",
+    "username": "daddo",
+    "firstName": "Riccardo",
+    "lastName": "Muzietti",
+    "gender": "Male",
+    "profileURL": "img/female.png",
     "email": "r.m@example.com"
   }
 ]

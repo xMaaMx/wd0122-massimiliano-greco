@@ -16,9 +16,12 @@
     </div> -->
 
     <p>Effettua il login</p>
+     
+
     <input type="text" id="nome">
     <button id="login">Log</button>
     <button id="logout">Logout</button>
+    <div class="ciao"></div>
 
     <script>
         if(localStorage.getItem("nome")){
@@ -28,22 +31,29 @@
         document.getElementById("login").addEventListener("click", function () {
 
             let nome = document.getElementById("nome").value
+        
 
             localStorage.setItem("nome", nome)
-
             document.querySelector("p").innerHTML = "Ciao, " + nome
-        })
+            })
 
 
         document.querySelector("#logout").addEventListener("click", function(){
             localStorage.removeItem("nome")
             document.querySelector("p").innerHTML = "Effettua il login"
         })
-    </script>
+
+        document.querySelector("#login").innerHTML = "porco dio"
+        document.querySelector(".ciao").innerHTML = "ciao luca"
+        
+    
+        
+        </script>
 
     <hr>
 
     <p>Sono passati <span id="tempo"></span> secondi</p>
+    <div>ciao</div>
     <script>
         
         let t = 0
@@ -59,8 +69,22 @@
             document.getElementById("tempo").innerHTML = t
         }, 1000)
 
+        document.body.onload = addElement;
 
+function addElement () {
+  // create a new div element
+  const newDiv = document.createElement("div");
 
+  // and give it some content
+  const newContent = document.createTextNode("Hi there and greetings!");
+
+  // add the text node to the newly created div
+  newDiv.appendChild(newContent);
+
+  // add the newly created element and its content into the DOM
+  const currentDiv = document.getElementById("div");
+  document.body.insertBefore(newDiv, currentDiv);
+}
 
 
         // // setTimeout(apriModal, 60000 * 40)
