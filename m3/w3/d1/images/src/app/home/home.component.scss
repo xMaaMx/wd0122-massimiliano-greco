@@ -1,16 +1,26 @@
 .card{
     width: 150px;
-    height: 250px;
+    height: 280px;
     border: solid 1px black;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin: 1% 45%;
 }
 .row{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
+.b1{
+    background-color: red;
+    margin-top: 10px;
+}
+.b2{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
 }

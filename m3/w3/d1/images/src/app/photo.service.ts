@@ -13,7 +13,7 @@ export class PhotoService {
 
   favSubject = new Subject<number>()
 
-  url = "https://jsonplaceholder.typicode.com/photos"
+  url = "https://jsonplaceholder.typicode.com/photos/"
 
   constructor(private http:HttpClient) { }
 

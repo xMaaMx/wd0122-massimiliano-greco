@@ -30,15 +30,13 @@ export class HomeComponent implements OnInit {
 
   elimina(id:number){
     this.photoSrv.deletePhoto(id).subscribe(res=>{
-      this.photos = res.slice(0,10)
+      this.photos = this.photos.filter(p => p.id !=id)
       
     })
   }
 
   like(){
-    this.photoSrv.addFav()
-
-    
+    this.photoSrv.addFav()    
   }
 
 }
