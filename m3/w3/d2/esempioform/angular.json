@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "formesercizio2": {
+    "esempioform": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/formesercizio2",
+            "outputPath": "dist/esempioform",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -33,6 +33,7 @@
             "styles": [
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
             "scripts": []
           },
@@ -73,10 +74,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "formesercizio2:build:production"
+              "browserTarget": "esempioform:build:production"
             },
             "development": {
-              "browserTarget": "formesercizio2:build:development"
+              "browserTarget": "esempioform:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +85,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "formesercizio2:build"
+            "browserTarget": "esempioform:build"
           }
         },
         "test": {
@@ -108,5 +109,5 @@
       }
     }
   },
-  "defaultProject": "formesercizio2"
+  "defaultProject": "esempioform"
 }
