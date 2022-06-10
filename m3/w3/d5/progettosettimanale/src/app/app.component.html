@@ -1,1 +1,16 @@
+
+<nav>
+    <li><a [routerLink]="['']">Home</a> </li>
+    <li><a [routerLink]="['/register']">Iscriviti</a> </li>
+    <li><a [routerLink]="['/profilo']">Profilo</a> </li>
+
+    <div class="btn">
+        <button><a [routerLink]="['/login']">Login</a> </button>
+        <button (click)="logout()">Logout</button>
+    </div>
+    
+</nav>
+    
+
+
 <router-outlet></router-outlet>

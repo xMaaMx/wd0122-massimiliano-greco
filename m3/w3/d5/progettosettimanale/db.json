@@ -1,6 +1,20 @@
 {
-    "users":[],
-    "movie":[
-       
-    ]
+  "users": [
+    {
+      "email": "massig87@live.it",
+      "password": "$2a$10$rkW7aq0D7K7zVVDeLCB9ruZKeH8QTRMtjAOqoGtaF2Z/8p.eqIsqK",
+      "id": 1
+    },
+    {
+      "email": "admin@admin.it",
+      "password": "$2a$10$MJwWztqvA7WRTcjcP0PQ/ehjbq/YQLUvs3egNLt45FZqhzWvg9w9u",
+      "id": 2
+    },
+    {
+      "email": "admin@admin",
+      "password": "$2a$10$RqnO1R1Wx.sfnoEa8XaQD.rrgquPBOMEXSgickIP1MiqMhik5FcxG",
+      "id": 3
+    }
+  ],
+  "movies": []
 }
